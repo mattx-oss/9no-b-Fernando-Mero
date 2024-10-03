@@ -1,7 +1,7 @@
 	Algoritmo Determinar_Si_Un_Numero_Es_Primo
 		Definir n, i Como Entero;
 		Definir esPrimo Como Logico;
-		Escribir "Ingrese un número: ";
+		Escribir "Ingrese un nÃºmero: ";
 		Leer n;
 		Si n <= 1 Entonces
 			esPrimo <- Falso;
@@ -16,8 +16,8 @@
 			FinMientras
 		FinSi
 		Si esPrimo Entonces
-			Escribir n, " es un número primo.";
+			Escribir n, " es un nÃºmero primo.";
 		Sino
-			Escribir n, " no es un número primo.";
+			Escribir n, " no es un nÃºmero primo.";
 		FinSi
 FinAlgoritmo
