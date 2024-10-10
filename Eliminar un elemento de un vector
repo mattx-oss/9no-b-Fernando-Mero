@@ -1,0 +1,21 @@
+Algoritmo EliminarElemento
+
+Definir vector Como Entero;
+Definir numero Como Entero;
+Dimension vector[10];
+
+Para i = 1 Hasta 10 Hacer
+	Escribir "Ingrese un número entero: ";
+	Leer vector[i];
+FinPara;
+
+Escribir "Ingrese el número que desea eliminar: ";
+Leer numero;
+
+Escribir "El vector resultante es: ";
+Para i = 1 Hasta 10 Hacer
+	Si vector[i] <> numero Entonces
+		Escribir vector[i];
+	FinSi;
+FinPara;
+FinAlgoritmo
