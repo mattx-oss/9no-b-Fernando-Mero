@@ -1,0 +1,22 @@
+Algoritmo MaxMinVector
+
+Definir vector Como Entero;
+Definir max, min Como Entero;
+Dimension vector[8];
+Para i = 1 Hasta 8 Hacer
+	Escribir "Ingrese un número entero: ";
+	Leer vector[i];
+FinPara;
+max = vector[1];
+min = vector[1];
+Para i = 2 Hasta 8 Hacer
+	Si vector[i] > max Entonces
+		max = vector[i];
+	FinSi;
+	Si vector[i] < min Entonces
+		min = vector[i];
+	FinSi;
+FinPara;
+Escribir "El valor máximo es: ", max;
+Escribir "El valor mínimo es: ", min;
+FinAlgoritmo
